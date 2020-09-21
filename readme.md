@@ -62,25 +62,25 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [lua.vm.js](https://github.com/daurnimator/lua.vm.js) - Web版的Lua虚拟机
 - [Moonshine](https://github.com/gamesys/moonshine) - 一个JS实现的Lua虚拟机，比lua.vm.js慢，但是有很好的文档，例子和JS接口
 - [Fengari](https://fengari.io/) - JS实现的Lua虚拟机，可以无缝的与JS和DOM进行操作
-- [MoonSharp](https://github.com/xanathar/moonsharp) - A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
-- [UniLua](https://github.com/xebecnan/UniLua) - A pure C# implementation of Lua 5.2, focused on compatibility with the Unity game engine.
-- [lupa](https://github.com/scoder/lupa) - Python bindings to LuaJIT2.
-- [golua](https://github.com/aarzilli/golua) - Golang bindings to the Lua C API.
-- [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler implemented in Go with Go APIs.
-- [LuaBridge](https://github.com/vinniefalco/LuaBridge) - A lightweight library for mapping data, functions, and classes back and forth between C++ and Lua.
+- [MoonSharp](https://github.com/xanathar/moonsharp) - 一个C#实现的Lua解释器，在.Net, Mono和Unity平台使用
+- [UniLua](https://github.com/xebecnan/UniLua) - 一个纯C#实现的Lua5.2解释器，关注Unity引擎的兼容性
+- [lupa](https://github.com/scoder/lupa) - LuaJIT2的python绑定
+- [golua](https://github.com/aarzilli/golua) - Lua C API的Go语言绑定
+- [GopherLua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM的Go语言实现
+- [LuaBridge](https://github.com/vinniefalco/LuaBridge) - 一个轻量的库，用于在C++和Lua之间来回映射数据，函数和类
 
-Note: From LuaJIT to Lua to lua.vm.js to Moonshine, a basic benchmark sees performance drop by roughly a factor of 6 with each hop.
+注意: 从LuaJIT到Lua到lua.vm.js到Moonshine,基本的基准测试表面，每一跳的性能下降约6倍。
 
 
-### Package Managers
-- [LuaRocks](https://luarocks.org/) - De-facto tool for installing Lua modules as packages called "rocks", plus public rock repository and website.  Much like npm or pip.
+### 包管理器
+- [LuaRocks](https://luarocks.org/) - Lua包管理工具，类似npm和pip
 
 
 ### Build Tools and Standalone Makers
-- [Lake](https://github.com/stevedonovan/Lake) - A build engine written in Lua, similar to Ruby's rake.
-- [Luabuild](https://github.com/stevedonovan/luabuild) - Highly customizable Lua 5.2 build system.
-- [luastatic](https://github.com/ers35/luastatic) - Simple tool for turning Lua programs into standalone executables.
-- [omnia](https://github.com/tongson/omnia) - A batteries-included creator of standalone executables, built on top of luastatic.
+- [Lake](https://github.com/stevedonovan/Lake) - 一个用Lua实现的构建引擎，类似与Ruby的rake.
+- [Luabuild](https://github.com/stevedonovan/luabuild) - 高度可定制的Lua 5.2构建系统
+- [luastatic](https://github.com/ers35/luastatic) - 将Lua程序转换为独立可执行文件的简单工具
+- [omnia](https://github.com/tongson/omnia) - 一个开箱即用的独立可以执行文件构建工具，建立在LuaStatic之上
 
 
 ### Debugging and Profiling
