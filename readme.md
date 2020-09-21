@@ -43,7 +43,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Miscellaneous](#miscellaneous)
 
 
-## Resources
+## 资源
 - [Community](#community)
 - [References](#references)
 - [Style Guides](#style-guides)
@@ -54,7 +54,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 - [Other Lists](#other-lists)
 
 
-### Implementations, Interpreters, and Bindings
+### 实现, 解释器, 和绑定
 - [Lua](http://www.lua.org/download.html) - Lua官方解释器.
   - [Lua Repo](https://github.com/lua/lua) - 官方代码仓库在Github的镜像
 - [LuaJIT](http://luajit.org/luajit.html) - 一个高性能的lua即时编译器
@@ -77,6 +77,7 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ### Build Tools and Standalone Makers
+> 构建工具和独立可执行文件构建工具
 - [Lake](https://github.com/stevedonovan/Lake) - 一个用Lua实现的构建引擎，类似与Ruby的rake.
 - [Luabuild](https://github.com/stevedonovan/luabuild) - 高度可定制的Lua 5.2构建系统
 - [luastatic](https://github.com/ers35/luastatic) - 将Lua程序转换为独立可执行文件的简单工具
@@ -84,7 +85,8 @@ Inspired by the lists [awesome](https://github.com/sindresorhus/awesome), [aweso
 
 
 ### Debugging and Profiling
-- [ProFi](https://gist.github.com/perky/2838755) - Simple profiler that works with LuaJIT and produces a report file.
+> 调试和性能解析
+- [ProFi](https://gist.github.com/perky/2838755) - 一个简单的分析工具，在LuaJIT的基础上构建，并且生成报告文件
 - [luatrace](https://github.com/geoffleyland/luatrace) - Toolset for tracing/analyzing/profiling script execution and generating detailed reports.
 - [StackTracePlus](https://github.com/ignacio/StackTracePlus) - Drop-in upgrade to Lua's stack traces which adds local context and improves readability.
 - [MobDebug](https://github.com/pkulchenko/MobDebug) - Powerful remote debugger with breakpoints and stack inspection. Used by ZeroBraneStudio.
